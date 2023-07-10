@@ -21,6 +21,10 @@
     padding: 20px 43px;
 }
 
+.txt-primary{
+    color: #E55473;
+}
+
 section-title {
     color: #272727;
     font-size: 40px;
@@ -52,12 +56,12 @@ header {
 
 /* main section makeup start from here  */
 
-main{
+.main {
     padding: 0 200px;
 }
 
 .featured-section {
-     margin-bottom: 128px;
+    margin-bottom: 128px;
 }
 
 .featured-txt {
@@ -117,6 +121,38 @@ main{
     margin-bottom: 128px;
 }
 
-.service{
+.service {
     padding: 85px 175px 87px 175px;
+}
+
+/* offer section */
+
+.offer-section {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.offer-detail {
+    text-align: center;
+    margin-right: 186px;
+
+    
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-image {
+    width: 318px;
+    height: 420px;
 }
