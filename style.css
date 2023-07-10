@@ -1,0 +1,44 @@
+/* common shared styles */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.paragraph-txt {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+}
+
+header {
+    background-color: #E554731A;
+    padding: 0 200px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.header-img {
+    width: 635px;
+    height: 800px;
+}
