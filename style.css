@@ -134,6 +134,7 @@ header {
 #img-box2 {
     background-color: #0597A026;
 }
+
 #img-box3 {
     background-color: #477D1126;
 }
@@ -285,13 +286,12 @@ header {
 
 }
 
-.help-headline{
+.help-headline {
     text-align: center;
-    
+
 }
 
-.follow{
-}
+.follow {}
 
 .payment-icons {
     display: flex;
@@ -302,14 +302,37 @@ header {
     max-width: 45px;
 }
 
-.customer-services{
+.customer-services {
     text-align: center;
 }
-.help-list a{
+
+.help-list a {
     text-decoration: none;
     color: #272727;
 }
 
-.help-name{
+.help-name {
     list-style: none;
+}
+
+.membership-section {
+    margin-top: 128px;
+    text-align: center;
+    padding: 0 200px;
+    background-image: ;
+}
+
+.membership-contain{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.membership-detail{
+    background-color: #FFF8DC;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 15px 20px ;
+
+
 }
