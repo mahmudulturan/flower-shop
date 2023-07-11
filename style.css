@@ -10,7 +10,8 @@
     font-weight: 400;
     margin-bottom: 32px;
 }
-.subscribe-form{
+
+.subscribe-form {
     display: flex;
     gap: 10px;
 }
@@ -81,6 +82,7 @@ header {
     text-align: center;
     margin-top: 45px;
 }
+
 .ft-img {
     width: 464px;
     height: 538px;
@@ -88,7 +90,7 @@ header {
     background-color: #A7216226;
     position: relative;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -98,14 +100,16 @@ header {
     height: 428px;
     position: absolute;
     bottom: 0;
-    
+
 }
+
 #img2 {
     width: 370px;
     height: 370px;
     position: absolute;
-    background-color:;
+    background-color: ;
 }
+
 #img3 {
     width: 314px;
     height: 471px;
@@ -127,6 +131,12 @@ header {
     margin-left: 24px;
 }
 
+#img-box2 {
+    background-color: #0597A026;
+}
+#img-box3 {
+    background-color: #477D1126;
+}
 
 
 /* 
@@ -229,12 +239,12 @@ header {
 
 /* footer makeup */
 
-footer {
+.footer {
     height: 449px;
     background: #111010;
     text-align: center;
     align-items: center;
-    margin-top: 128px;
+    /* margin-top: 128px; */
 }
 
 .footer-title {
@@ -258,6 +268,48 @@ footer {
     font-weight: 400;
 }
 
-.footer-txt{
+.footer-txt {
     padding: 128px;
+}
+
+
+.payment-help {
+    background-color: #E554731A;
+    padding: 0 200px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 128px;
+    gap: 110px;
+    padding: 30px;
+
+}
+
+.help-headline{
+    text-align: center;
+    
+}
+
+.follow{
+}
+
+.payment-icons {
+    display: flex;
+    align-items: center;
+}
+
+.con {
+    max-width: 45px;
+}
+
+.customer-services{
+    text-align: center;
+}
+.help-list a{
+    text-decoration: none;
+    color: #272727;
+}
+
+.help-name{
+    list-style: none;
 }
