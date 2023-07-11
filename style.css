@@ -236,6 +236,28 @@ header {
     border: none;
 }
 
+.membership-section {
+    margin-top: 128px;
+    text-align: center;
+    padding: 0 200px;
+    background-image: ;
+}
+
+.membership-contain{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.membership-detail{
+    background-color: #FFF8DC;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 7px 15px ;
+
+
+}
+
 
 
 /* footer makeup */
@@ -291,7 +313,6 @@ header {
 
 }
 
-.follow {}
 
 .payment-icons {
     display: flex;
@@ -313,26 +334,4 @@ header {
 
 .help-name {
     list-style: none;
-}
-
-.membership-section {
-    margin-top: 128px;
-    text-align: center;
-    padding: 0 200px;
-    background-image: ;
-}
-
-.membership-contain{
-    margin-top: 40px;
-    display: flex;
-    gap: 25px;
-}
-
-.membership-detail{
-    background-color: #FFF8DC;
-    padding: 30px;
-    border-radius: 30px;
-    box-shadow: 10px 15px 20px ;
-
-
 }
