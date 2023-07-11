@@ -79,6 +79,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
+    margin-top: 45px;
 }
 .ft-img {
     width: 464px;
@@ -137,15 +138,11 @@ header {
 /* service section */
 
 .service-section {
-    width: 1440px;
-    height: 320px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    /* margin: 200px; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-    /* padding: 85px 175px 87px 175px; */
     margin-bottom: 128px;
 }
 
@@ -156,8 +153,6 @@ header {
 /* offer section */
 
 .offer-section {
-    /* width: 1922px;
-    height: 620px; */
     padding: 80px 0;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -194,12 +189,11 @@ header {
 }
 
 .social-img {
-    /* max-width: 80%; */
     gap: 20px;
     display: flex;
     align-items: center;
-    /* margin: auto; */
     justify-content: center;
+    margin-top: 48px;
 }
 
 .sc-img {
@@ -210,13 +204,8 @@ header {
 /*subscribe section makeup  */
 
 .subscribe-section {
-   
-    /* max-width: 80%;
-    margin: auto; */
     margin-top: 128px;
     text-align: center;
-    
-
 }
 
 .subscribe-data {
